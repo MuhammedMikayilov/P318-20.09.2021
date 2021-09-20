@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main div {
+  /* flex-grow: 1; */
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.orange {
+  /* order: -1; */
+  /* flex-grow: 2 !important; */
+  background-color: orange;
+  align-self: auto;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-content: space-between; */
+  /* align-items: center; */
+  /* justify-content: space-evenly; */
+  /* flex-direction: row; */
+}
+
+/* (id,class,tag) */
